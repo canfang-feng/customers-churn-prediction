@@ -1,27 +1,11 @@
-# Title
+# Churn prediction using machine learning
+
+
 ## Description
-For many businesses, customer churns are costly and become key problems. Identifying unhappy customers earlier can give a chance for companies to take action and keep customer incentive to stay. Most companies have collected customer information. Using customer information to create a machine learning model to automate identifying unhappy customers becomes possible and highly demanded in many industries. This project takes a mobile phone operator as an example to create customer churn prediction. Firstly, a notebook is created and provided to analyze the customer churn situation in this mobile phone operator through visualizations and data exploration. An ETL pipeline is created to load and clean the data and an ML pipeline is designed to implement the algorithms and models, select the metrics to evaluate the performance and save the result of each experiment for tracking the ML train work.
+For many businesses, customer churns are costly and become key problems. Identifying unhappy customers earlier can give a chance for companies to take action and keep customer incentive to stay. This project takes a mobile phone operator as an example to create customer churn prediction. Firstly, a notebook is created and provided to analyze the customer churn situation in this mobile phone operator through visualizations and data exploration. An ETL pipeline is created to load and clean the data and an ML pipeline is designed to implement the algorithms and models, select the metrics to evaluate the performance and save the result of each experiment for tracking the ML train work.
 
 ## Dataset
-The dataset here use is publicly available and was mentioned in the book [Discovering Knowledge in Data](https://www.amazon.com/dp/0470908742/) by Daniel T. Larose. It is attributed by the author to the University of California Irvine Repository of Machine Learning Datasets. The dataset is about customer churn prediction. It contains 5000 rows and 21 columns. The columns are as follows:
-- `State`: the US state in which the customer resides, indicated by a two-letter abbreviation; for example, OH or NJ
-- `Account Length`: the number of days that this account has been active
-- `Area Code`: the three-digit area code of the corresponding customer’s phone number
-- `Phone`: the remaining seven-digit phone number
-- `Int’l Plan`: whether the customer has an international calling plan: yes/no
-- `VMail Plan`: whether the customer has a voice mail feature: yes/no
-- `VMail Message`: the average number of voice mail messages per month
-- `Day Mins`: the total number of calling minutes used during the day
-- `Day Calls`: the total number of calls placed during the day
-- `Day Charge`: the billed cost of daytime calls
-- `Eve Mins, Eve Calls, Eve Charge`: the billed cost for calls placed during the evening
-- `Night Mins`, `Night Calls`, `Night Charge`: the billed cost for calls placed during nighttime
-- `Intl Mins`, `Intl Calls`, `Intl Charge`: the billed cost for international calls
-- `CustServ Calls`: the number of calls placed to Customer Service
-- `Churn?`: whether the customer left the service: true/false
-
-The last attribute, `Churn?`, is known as the target attribute: the attribute that we want the ML model to predict. 
-
+The dataset here use is publicly available and was mentioned in the book [Discovering Knowledge in Data](https://www.amazon.com/dp/0470908742/) by Daniel T. Larose. It is attributed by the author to the University of California Irvine Repository of Machine Learning Datasets. The dataset is about customer churn prediction. It contains 5000 rows and 21 columns. 
 
 ## Dependencies
 Requires [poetry](https://python-poetry.org/), whose installation instructions can be found [here](https://python-poetry.org/docs/#installing-with-the-official-installer). You also need to have right Python version installed through pyenv. Run `poetry install` to install all dependencies in the root directory of the project, where `poetry.lock` is located.
