@@ -12,7 +12,7 @@ The dataset here use is publicly available and was mentioned in the book [Discov
 - `Int’l Plan`: whether the customer has an international calling plan: yes/no
 - `VMail Plan`: whether the customer has a voice mail feature: yes/no
 - `VMail Message`: the average number of voice mail messages per month
-- `Day Mins`: the total number of calling minutes used during the day
+- `Day Mins`: the total number of calling minutes used during the t sday
 - `Day Calls`: the total number of calls placed during the day
 - `Day Charge`: the billed cost of daytime calls
 - `Eve Mins, Eve Calls, Eve Charge`: the billed cost for calls placed during the evening

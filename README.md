@@ -1,5 +1,5 @@
 # Churn prediction using machine learning
-
+Please read [the blog](https://canfang-feng.github.io/blog/) for more details about this project.
 
 ## Description
 For many businesses, customer churns are costly and become key problems. Identifying unhappy customers earlier can give a chance for companies to take action and keep customer incentive to stay. This project takes a mobile phone operator as an example to create customer churn prediction. Firstly, a notebook is created and provided to analyze the customer churn situation in this mobile phone operator through visualizations and data exploration. An ETL pipeline is created to load and clean the data and an ML pipeline is designed to implement the algorithms and models, select the metrics to evaluate the performance and save the result of each experiment for tracking the ML train work.
