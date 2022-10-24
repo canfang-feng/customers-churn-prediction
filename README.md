@@ -2,7 +2,7 @@
 Please read [the blog](https://canfang-feng.github.io/blog/) for more details about this project.
 
 ## Description
-For many businesses, customer churns are costly and become key problems. Identifying unhappy customers earlier can give a chance for companies to take action and keep customer incentive to stay. This project takes a mobile phone operator as an example to create customer churn prediction. Firstly, a notebook is created and provided to analyze the customer churn situation in this mobile phone operator through visualizations and data exploration. An ETL pipeline is created to load and clean the data and an ML pipeline is designed to implement the algorithms and models, select the metrics to evaluate the performance and save the result of each experiment for tracking the ML train work.
+For many businesses, customer churns are costly and become key problems. Identifying unhappy customers earlier can give a chance for companies to take action and keep customer incentive to stay. Most companies have collected customer information. Using customer information to create a machine learning model to automate identifying unhappy customers becomes possible and highly demanded in many industries. This time, we takes a mobile phone operator as an example to create customer churn prediction. Firstly, a notebook is created and provided to analyze the customer churn situation in this mobile phone operator through visualizations and data exploration. An ETL pipeline is created to load and clean the data and an ML pipeline is designed to implement the algorithms and models, select the metrics to evaluate the performance and save the result of each experiment for tracking the ML train work.
 
 ## Dataset
 The dataset here use is publicly available and was mentioned in the book [Discovering Knowledge in Data](https://www.amazon.com/dp/0470908742/) by Daniel T. Larose. It is attributed by the author to the University of California Irvine Repository of Machine Learning Datasets. The dataset is about customer churn prediction. It contains 5000 rows and 21 columns. 
@@ -135,4 +135,4 @@ The top 5 features that contribute to customer churn are `Night Charge`, `Night 
 
 
 ## Acknowledgements
-Must give credit to [Discovering Knowledge in Data](https://www.amazon.com/dp/0470908742/) for the dataset and Udacity for the guidance and code review.
+Must give credit to [Discovering Knowledge in Data](https://www.amazon.com/dp/0470908742/) for the dataset.
